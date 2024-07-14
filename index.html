@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/c9c652b69e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header1">
+        <div class="container1">
+            <nav>
+                <a href="#header"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            
+                <h2>Welcome!, I am... </h2>
+                <h1> RAM ZEDRICK PORLEY</h1>
+                <p>I'm thrilled to have you here exploring my digital showcase. <br>
+                    Within these virtual walls, you'll discover a curated collection of <br>
+                    my work, passion projects, and creative endeavors.</p>
+            </div>
+            <div class="buttons">
+                <a href="Porley_Resume.pdf" class="btn">Download CV</a>
+            </div>
+    
+        </div>
+    </div>
+
+<div id="About">
+    <div class="row">
+        <div class="About-col-1">
+            <img src="ME.png">
+        </div>
+        <div class="About-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p> The Technophile in Me: <br> 
+                Welcome to my webpage! I'm Ley, a passionate web developer with a strong foundation in HTML, CSS, and JavaScript.
+                I am dedicated to creating engaging and user-friendly websites that bring ideas to life. As a fast learner,
+                I thrive on tackling new challenges and expanding my skill set in the ever-evolving tech landscape. 
+                My enthusiasm for technology goes beyond web development—I'm a tech geek at heart, always exploring the latest trends and advancements in the industry. Here, you'll find a showcase of my projects, highlighting my commitment to delivering modern and efficient solutions. Thank you for visiting, and I look forward to sharing my journey and work with you!
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Programming </span><br>HTMLS, JavaScript, CSS, Python </li>
+                    <li><span>Communication Skills </span><br>Public Speaking </li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2023-Present </span><br>Dalubhasaan ng Lungsod ng Lucena</li>
+                    <li><span>2020-2021</span><br>Informatics College Northgate alabang</li>
+                    <li><span>2018-2019 </span><br>Ts Cruz High School</li>
+                    <li><span>2014-2015 </span><br>Lucena West II Elementary School </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Achievements">
+                <ul>
+                    <li><span>2019</span><br>With Honors</li>
+                    <li><span>2020 </span><br>With Honors</li>
+                    <li><span>2021</span><br>With honors</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--PROJECTS-->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">PROJECTS</h1>
+        <div class="proj-list">
+            <div class="project">
+                <img src="rockpaperscissor.png">
+                <div class="layer">
+                    <h3>ROCK-PAPER-SCISSORS</h3>
+                    <div class="projbtn">
+                        <a href="https://zedrickporley.github.io/RockPaperScissor/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/zedrickporley/RockPaperScissor/blob/main/index.html" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project">
+                <img src="resumeee.png">
+                <div class="layer">
+                    <h3>RESUME</h3>
+                    <div class="projbtn">
+                        <a href="https://zedrickporley.github.io/online_resume/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/zedrickporley/online_resume/blob/main/index.html" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="calculato.png">
+                <div class="layer">
+                    <h3>CALCULATOR</h3>
+                    <div class="projbtn">
+                        <a href="https://zedrickporley.github.io/ipt-calculator-app/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/zedrickporley/ipt-calculator-app/blob/main/index.html" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- CONTACT -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>zedrickporley@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09219966314</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/cedrick.porley.9"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Leyyyyyy05"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/zedporley/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+
+            </div>
+            <div class="contact_form" action="none">
+                <form id="contactForm" >
+                    <input type="text" id="name" name="name" placeholder="Full Name">
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    <button type="submit" class="submit_btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+</body>
+</html>
